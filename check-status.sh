@@ -16,7 +16,7 @@ do
     tmp=$(getAddress)
     echo $tmp
     if [ $tmp != $abc ]; then 
-        echo "abc"
+        echo "abc is ready. you can access the internet in 10 minutes."
         exit 0
     else
         echo "still not ready"
