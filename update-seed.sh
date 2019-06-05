@@ -8,9 +8,7 @@ fi
 date +%s > SEED
 
 git add SEED
-git diff
-git commit -a -m "trigger user: $GO_TRIGGER_USER, \npipeline name: $GO_PIPELINE_NAME \npipeline label: $GO_PIPELINE_LABEL"
+git commit -m "trigger user: $GO_TRIGGER_USER, \npipeline name: $GO_PIPELINE_NAME \npipeline label: $GO_PIPELINE_LABEL"
 git push
-git status
 
 exit 0
