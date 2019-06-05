@@ -19,7 +19,7 @@ do
         echo "abc"
         exit 0
     else
-        echo "not ready"
+        echo "still not ready"
     fi
 done 
 
