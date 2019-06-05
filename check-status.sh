@@ -2,7 +2,7 @@
 set -x
 
 getAddress(){
-    ip=$(dig abc.openlocation.cn +short)
+    ip=$(dig @dns3.hichina.com abc.openlocation.cn +short)
     echo $ip
 }
 
